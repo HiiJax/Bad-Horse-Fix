@@ -3,39 +3,31 @@
 	"id": "bad-horse-fix",
 	"version": "${version}",
 	"name": "Bad Horse Fix",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a bad fix for bad horses. It stops markings from appearing above horse armor, just not very efficiently.",
 	"authors": [
-		"Me!"
+		"DoonGuy"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/doonguy/Bad-Horse-Fix",
+		"sources": "https://github.com/doonguy/Bad-Horse-Fix.git",
+		"issues": "https://github.com/doonguy/Bad-Horse-Fix/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "LGPL-3.0-only",
 	"icon": "assets/bad-horse-fix/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"main": [
 			"doonguy.badhorsefix.BadHorseFix"
-		],
-		"client": [
-			"doonguy.badhorsefix.BadHorseFixClient"
 		]
 	},
 	"mixins": [
-		"bad-horse-fix.mixins.json",
-		{
-			"config": "bad-horse-fix.client.mixins.json",
-			"environment": "client"
-		}
+		"badhorsefix.mixins.json"
 	],
+	"accessWidener" : "badhorsefix.accesswidener",
 	"depends": {
-		"fabricloader": ">=0.15.9",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabricloader": ">=0.12.3",
+		"minecraft": ">=1.18.2",
+		"sodium": "*",
+		"iris": ">=1.6.0 <1.7.0"
 	}
 }
