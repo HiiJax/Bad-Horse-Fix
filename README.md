@@ -22,7 +22,7 @@ This is subject to change.
 #### Why doesn't Iris just implement this?
 - This mod does not solve the root problem. I actually did submit a pull request with the changes and one of the devs suggested a much better solution that I'm still looking into. You can see more details here: https://github.com/IrisShaders/Iris/pull/2289
 
-#### If this method isn't efficient, why did you make a mod with it?
+#### If there's a better possible solution, why didn't you focus on that?
 - I hadn't made a mod before so I thought this would be a good opportunity to. I also need to learn a lot more before coming up with a proper solution to provide to the Iris team so I thought this would be a good temporary solution and possibly teach me a few of those things.
 
 #### What causes the problem in the first place?
