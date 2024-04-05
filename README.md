@@ -7,8 +7,8 @@ It isn't very efficient in how the fix is applied. It basically checks everythin
 ## Version Compatibility
 | BHF   | Iris  | Minecraft |
 | ----- | ----- | --------- |
-| 1.0.X | 1.6.X | 1.18.2+   |
-| 1.1.X (planned) | 1.7.0 | 1.20.4+   | 
+| 1.0.X | 1.6.X | 1.18.2 - 1.20.4 |
+| 1.1.X (planned) | 1.7.0 | 1.20.4+ | 
 
 This is subject to change.
 
