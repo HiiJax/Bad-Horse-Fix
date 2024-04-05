@@ -1,3 +1,4 @@
+![image](https://doonguy.github.io/images/bhf-comparison-transparent.png)
 # Bad Horse Fix
 A Bad Fix for Bad Horses
 ## About
