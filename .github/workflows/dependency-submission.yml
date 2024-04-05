@@ -9,6 +9,10 @@ jobs:
   dependency-submission:
     runs-on: ubuntu-latest
     steps:
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
     - name: Checkout sources
       uses: actions/checkout@v4
     - name: Generate and submit dependency graph
