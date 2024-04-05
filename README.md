@@ -1,9 +1,9 @@
 ![image](https://doonguy.github.io/images/bhf-comparison-transparent.png)
 # Bad Horse Fix
-A Bad Fix for Bad Horses. Check it out on [Modrinth](https://modrinth.com/mod/bad-horse-fix).
+A Bad Fix for Bad Horses. Check it out on.
 
-![Modrinth Downloads](https://img.shields.io/modrinth/dt/A4pJeHgM?style=for-the-badge&logo=modrinth&label=Modrinth%20Downloads&color=limegreen&link=https%3A%2F%2Fmodrinth.com%2Fmod%2Fbad-horse-fix)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/DoonGuy/Bad-Horse-Fix/total?style=for-the-badge&logo=github&label=GitHub%20Downloads&color=darkgray&link=https%3A%2F%2Fgithub.com%2FDoonGuy%2FBad-Horse-Fix%2Freleases)
+[![Modrinth Downloads][img-modrinth]][url-modrinth]
+[![GitHub Downloads][img-github]][url-github]
 
 ## About
 This mod fixes horse markings appearing above horse armor when using the Iris shaders mod. It requires that Iris be installed in order to work since it directly modifies Iris's rendering code. It should also solve the problem for the ImmediatelyFast mod provided you also install Iris.
@@ -36,3 +36,9 @@ This is subject to change.
 
 #### Are these questions actually frequently asked?
 - No, I just like providing information this way :)
+
+[img-modrinth]: <https://img.shields.io/modrinth/dt/A4pJeHgM?style=for-the-badge&logo=modrinth&label=Modrinth%20Downloads&color=limegreen>
+[img-github]: <https://img.shields.io/github/downloads/DoonGuy/Bad-Horse-Fix/total?style=for-the-badge&logo=github&label=GitHub%20Downloads&color=darkgray>
+
+[url-modrinth]: <https://modrinth.com/mod/bad-horse-fix>
+[url-github]: <https://github.com/DoonGuy/Bad-Horse-Fix/releases>
