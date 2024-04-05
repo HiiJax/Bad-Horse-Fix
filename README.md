@@ -1,6 +1,6 @@
 ![image](https://doonguy.github.io/images/bhf-comparison-transparent.png)
 # Bad Horse Fix
-A Bad Fix for Bad Horses
+A Bad Fix for Bad Horses. Check it out on [Modrinth](https://modrinth.com/mod/bad-horse-fix).
 ## About
 This mod fixes horse markings appearing above horse armor when using the Iris shaders mod. It requires that Iris be installed in order to work since it directly modifies Iris's rendering code. It should also solve the problem for the ImmediatelyFast mod provided you also install Iris.
 
