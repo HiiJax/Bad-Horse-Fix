@@ -1,4 +1,4 @@
-![image](https://doonguy.github.io/images/bhf-comparison-transparent.png)
+[![Comparison Image][img-comparison]][url-modrinth]
 # Bad Horse Fix
 A Bad Fix for Bad Horses. Check it out on.
 
@@ -32,11 +32,12 @@ This is subject to change.
 - I haven't looked at the source code for that mod but I imagine that it has some kind of batched-entity-rendering-like system but let's Iris take over if it's installed.
 
 #### Can I use this mod in my modpack?
-- Yes! But please keep in mind it hasn't gone through very much testing.
+- Yes, and feel free to post it [here](https://github.com/DoonGuy/Bad-Horse-Fix/discussions/categories/modpacks) if you do. I'd love to check it out!
 
 #### Are these questions actually frequently asked?
 - No, I just like providing information this way :)
 
+[img-comparison]: <https://doonguy.github.io/images/bhf-comparison-transparent.png>
 [img-modrinth]: <https://img.shields.io/modrinth/dt/A4pJeHgM?style=for-the-badge&logo=modrinth&label=Modrinth%20Downloads&color=limegreen>
 [img-github]: <https://img.shields.io/github/downloads/DoonGuy/Bad-Horse-Fix/total?style=for-the-badge&logo=github&label=GitHub%20Downloads&color=darkgray>
 
