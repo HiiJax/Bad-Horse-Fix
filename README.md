@@ -1,4 +1,4 @@
-![Comparison graphic displaying horse markings appearing above armor without BHF on the left, no markings appearing above armor with BHF on the right](https://cdn.modrinth.com/data/cached_images/a38494e60fec7417108a15957734ea7371a7c91e.png)
+![Comparison Image][img-comparison]
 # Bad Horse Fix
 
 [![Modrinth Downloads][img-modrinth]][url-modrinth]
@@ -23,7 +23,7 @@ This is subject to change.
 ## Modpacks
 You can include this mod in modpacks that are hosted on Modrinth or that respect this mod's license (LGPL-3.0). Feel free to post it [here](https://github.com/DoonGuy/Bad-Horse-Fix/discussions/categories/modpacks) if you do include it. I'd love to check it out!
 
-
+[img-comparison]: <https://doonguy.github.io/images/bhf-comparison-transparent.png>
 [img-modrinth]: <https://img.shields.io/modrinth/dt/A4pJeHgM?style=for-the-badge&logo=modrinth&label=Modrinth%20Downloads&color=limegreen>
 [img-github]: <https://img.shields.io/github/downloads/DoonGuy/Bad-Horse-Fix/total?style=for-the-badge&logo=github&label=GitHub%20Downloads&color=darkgray>
 

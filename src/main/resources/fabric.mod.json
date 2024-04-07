@@ -3,7 +3,7 @@
 	"id": "bad-horse-fix",
 	"version": "${version}",
 	"name": "Bad Horse Fix",
-	"description": "This is a bad fix for bad horses. It stops markings from appearing above horse armor, just not very efficiently.",
+	"description": "Fixes horse markings appearing above horse armor when using Iris.",
 	"authors": [
 		"DoonGuy"
 	],
@@ -22,7 +22,6 @@
 	"depends": {
 		"fabricloader": ">=0.12.3",
 		"minecraft": ">=1.18.2",
-		"sodium": "*",
 		"iris": ">=1.6.0 <1.7.0"
 	}
 }
