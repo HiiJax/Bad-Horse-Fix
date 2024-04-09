@@ -14,7 +14,6 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "badhorsefix-common.mixins.json"
         mixinConfig "badhorsefix.mixins.json"
     }
 }

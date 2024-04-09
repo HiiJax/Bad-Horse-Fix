@@ -16,11 +16,10 @@
   "icon": "badhorsefix-icon.png",
   "environment": "client",
   "mixins": [
-    "badhorsefix.mixins.json",
-    "badhorsefix-common.mixins.json"
+    "badhorsefix.mixins.json"
   ],
   "depends": {
-    "minecraft": ">=1.16.5",
-    "iris": ">=1.2.0 <1.7.0"
+    "minecraft": ">=1.17",
+    "iris": ">=1.2.1 <1.7.0"
   }
 }

@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
+loaderVersion = "*"
 issueTrackerURL = "https://github.com/doonguy/Bad-Horse-Fix/issues"
 license = "LGPL-3.0-only"
 
@@ -16,14 +16,14 @@ logoFile = "badhorsefix-icon.png"
 [[dependencies.badhorsefix]]
 modId = "forge"
 mandatory = true
-versionRange = "*"
+versionRange = "[40.1,)"
 ordering = "NONE"
 side = "CLIENT"
 
 [[dependencies.badhorsefix]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.16.5,)"
+versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "CLIENT"
 
@@ -31,6 +31,6 @@ side = "CLIENT"
 [[dependencies.badhorsefix]]
 modId = "oculus"
 mandatory = true
-versionRange = "[1.2.0,1.7.0)"
+versionRange = "[1.2.1,1.7.0)"
 ordering = "NONE"
 side = "CLIENT"
