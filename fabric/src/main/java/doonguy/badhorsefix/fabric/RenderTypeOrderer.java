@@ -1,4 +1,4 @@
-package doonguy.badhorsefix;
+package doonguy.badhorsefix.fabric;
 
 import net.minecraft.client.renderer.RenderType;
 
