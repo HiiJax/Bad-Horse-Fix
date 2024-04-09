@@ -8,25 +8,19 @@
     "DoonGuy"
   ],
   "contact": {
-    "homepage": "https://doonguy.github.io/",
+    "homepage": "https://modrinth.com/mod/bad-horse-fix",
     "sources": "https://github.com/DoonGuy/Bad-Horse-Fix",
     "issues": "https://github.com/doonguy/Bad-Horse-Fix/issues"
   },
-  "license": "Insert License Here",
-  "icon": "assets/badhorsefix/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "doonguy.badhorsefix.fabric.BadHorseFixFabric"
-    ]
-  },
+  "license": "LGPL-3.0-only",
+  "icon": "badhorsefix-icon.png",
+  "environment": "client",
   "mixins": [
     "badhorsefix.mixins.json",
     "badhorsefix-common.mixins.json"
   ],
   "depends": {
-    "fabric": "*",
-    "minecraft": ">=1.20.1",
-    "iris": "<1.7.0"
+    "minecraft": ">=1.16.5",
+    "iris": ">=1.2.0 <1.7.0"
   }
 }
