@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "*"
+issueTrackerURL = "https://github.com/doonguy/Bad-Horse-Fix/issues"
+license = "LGPL-3.0-only"
+
+[[mods]]
+modId = "badhorsefix"
+version = "${version}"
+displayName = "Bad Horse Fix"
+authors = "DoonGuy"
+description = '''
+Fixes horse markings appearing above horse armor when using Oculus
+'''
+logoFile = "badhorsefix-icon.png"
+
+[[dependencies.badhorsefix]]
+modId = "forge"
+mandatory = true
+versionRange = "[40.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.badhorsefix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,)"
+ordering = "NONE"
+side = "CLIENT"
+
+
+[[dependencies.badhorsefix]]
+modId = "oculus"
+mandatory = true
+versionRange = "[1.2.1,1.7.0)"
+ordering = "NONE"
+side = "CLIENT"

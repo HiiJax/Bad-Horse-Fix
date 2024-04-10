@@ -1,6 +1,6 @@
-package doonguy.badhorsefix.mixin;
+package doonguy.badhorsefix.mixin.forge;
 
-import doonguy.badhorsefix.RenderTypeOrderer;
+import doonguy.badhorsefix.forge.RenderTypeOrderer;
 import net.coderbot.batchedentityrendering.impl.ordering.GraphTranslucencyRenderOrderManager;
 import net.minecraft.client.renderer.RenderType;
 import org.spongepowered.asm.mixin.Mixin;
@@ -12,7 +12,7 @@ import java.util.List;
 
 @Mixin(GraphTranslucencyRenderOrderManager.class)
 public abstract class GraphTranslucencyRenderOrderManagerMixin {
-    @Inject(method = "getRenderOrder", at = @At("RETURN"), cancellable = true)
+    @Inject(method = "getRenderOrder", at = @At("RETURN"), cancellable = true, remap = false)
     private void sortLayers(CallbackInfoReturnable<List<RenderType>> cir) {
         List<RenderType> allLayers = cir.getReturnValue();
         allLayers.sort(new RenderTypeOrderer());
