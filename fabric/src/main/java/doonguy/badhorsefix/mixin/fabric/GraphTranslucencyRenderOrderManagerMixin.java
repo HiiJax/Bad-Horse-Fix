@@ -1,7 +1,7 @@
 package doonguy.badhorsefix.mixin.fabric;
 
 import doonguy.badhorsefix.fabric.RenderTypeOrderer;
-import net.coderbot.batchedentityrendering.impl.ordering.GraphTranslucencyRenderOrderManager;
+import net.irisshaders.batchedentityrendering.impl.ordering.GraphTranslucencyRenderOrderManager;
 import net.minecraft.client.renderer.RenderType;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
