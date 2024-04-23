@@ -6,19 +6,17 @@
 [![GitHub Downloads][img-github]][url-github]
 
 ## About
-This mod fixes horse markings appearing above horse armor when using the Iris shaders mod. It requires that Iris be installed in order to work since it directly modifies Iris's rendering code. ~~It should also solve the problem for the ImmediatelyFast mod provided you also install Iris.~~  [ImmediatelyFast will likely have this fix implemented in it's next update.](https://github.com/RaphiMC/ImmediatelyFast/issues/59)
+This mod fixes horse markings appearing above horse armor when using the Iris shaders mod. It requires that Iris or Oculus be installed in order to work since it directly modifies Iris's rendering code.
 
 Basically, this mod checks everything being rendered to see if it contains "horse", "armor", or "markings" and if it finds anything, it forces it to be rearranged. There doesn't seem to be any noticeable performance hit.
 ## Version Compatibility
-### Basically, if you are on a relatively new, *non-beta* version of Iris or Oculus, this mod should work. 
-But here is a chart, if you want more details:
+Simply looking at the Modrinth/CurseForge versions section should be a bit more clear, but here's a table for some extra details:
 
-| Mod    | Mod Version  | Minecraft Version | Loader Version                     |
-| ------ | ------------ | ----------------- | ---------------------------------- |
-| Iris   | 1.2.1+       | 1.17+             | Follow Iris Requirements           |
-| Oculus | 1.2.5+       | 1.18.2+           | Forge 40.1+/NeoForge Follow Oculus |
-
-This is applies to BHF 1.0.1 and is subject to change.
+| Mod           | Mod Version    | Minecraft Version | BHF Version   |
+|---------------|----------------|-------------------|---------------|
+| Iris          | 1.7.0+         | 1.20.1+           | 1.0.2+        |
+| Iris (Legacy) | 1.2.1 - 1.6.17 | 1.17 - 1.20.4     | 1.0.0 - 1.0.1 |
+| Oculus        | 1.2.5+         | 1.18.2+           | 1.0.1+        |
 
 ## Roadmap
 1. Solve root problem
