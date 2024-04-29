@@ -3,7 +3,7 @@
 
 [![Modrinth Downloads][img-modrinth]][url-modrinth]
 [![CurseForge Downloads][img-curseforge]][url-curseforge]
-[![GitHub Downloads][img-github]][url-github]
+[![GitHub Issues][img-github]][url-github]
 
 ## About
 This mod fixes horse markings appearing above horse armor when using the Iris shaders mod. It requires that Iris or Oculus be installed in order to work since it directly modifies Iris's rendering code.
@@ -22,7 +22,7 @@ Simply looking at the Modrinth/CurseForge versions section should be clear, but 
 2. Implement into said mods
 
 ## Modpacks
-You can include this mod in modpacks that are hosted on Modrinth or that respect this mod's license (LGPL-3.0). Feel free to post it [here](https://github.com/DoonGuy/Bad-Horse-Fix/discussions/categories/modpacks) if you do include it. I'd love to check it out!
+You can include this mod in modpacks that are hosted on Modrinth, CurseForge, or that respect this mod's license (LGPL-3.0). Feel free to post it [here](https://github.com/DoonGuy/Bad-Horse-Fix/discussions/categories/modpacks) if you do include it. I'd love to check it out!
 
 [img-comparison]: https://doonguy.github.io/images/bhf-comparison-transparent.png
 
@@ -30,11 +30,11 @@ You can include this mod in modpacks that are hosted on Modrinth or that respect
 
 [img-curseforge]: https://img.shields.io/curseforge/dt/999835?style=for-the-badge&logo=curseforge&label=CurseForge%20Downloads&color=orange
 
-[img-github]: https://img.shields.io/github/downloads/DoonGuy/Bad-Horse-Fix/total?style=for-the-badge&logo=github&label=GitHub%20Downloads&color=darkgray
+[img-github]: https://img.shields.io/github/issues/DoonGuy/Bad-Horse-Fix?style=for-the-badge&logo=github&color=darkgray
 
 
 [url-modrinth]: https://modrinth.com/mod/bad-horse-fix
 
 [url-curseforge]: https://www.curseforge.com/minecraft/mc-mods/bad-horse-fix
 
-[url-github]: https://github.com/DoonGuy/Bad-Horse-Fix
+[url-github]: https://github.com/DoonGuy/Bad-Horse-Fix/issues
