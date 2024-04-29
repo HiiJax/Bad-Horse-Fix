@@ -10,13 +10,12 @@ This mod fixes horse markings appearing above horse armor when using the Iris sh
 
 Basically, this mod checks everything being rendered to see if it contains "horse", "armor", or "markings" and if it finds anything, it forces it to be rearranged. There doesn't seem to be any noticeable performance hit.
 ## Version Compatibility
-Simply looking at the Modrinth/CurseForge versions section should be a bit more clear, but here's a table for some extra details:
+Simply looking at the Modrinth/CurseForge versions section should be clear, but here's a table too, just in case:
 
-| Mod           | Mod Version    | Minecraft Version | BHF Version   |
-|---------------|----------------|-------------------|---------------|
-| Iris          | 1.7.0+         | 1.20.1+           | 1.0.2+        |
-| Iris (Legacy) | 1.2.1 - 1.6.17 | 1.17 - 1.20.4     | 1.0.0 - 1.0.1 |
-| Oculus        | 1.2.5+         | 1.18.2+           | 1.0.1+        |
+| Iris/Oculus Version | Minecraft Version | Recommended BHF Version |
+|---------------------|-------------------|-------------------------|
+| 1.7.0+              | 1.20.1+           | 2.0.0                   |
+| 1.2.1 - 1.6.17      | 1.17 - 1.20.4     | 1.0.1                   |
 
 ## Roadmap
 1. Solve root problem
