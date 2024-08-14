@@ -22,19 +22,19 @@ Simply looking at the Modrinth/CurseForge versions section should be clear, but 
 2. Implement into said mods
 
 ## Modpacks
-You can include this mod in modpacks that are hosted on Modrinth, CurseForge, or that respect this mod's license (LGPL-3.0). Feel free to post it [here](https://github.com/DoonGuy/Bad-Horse-Fix/discussions/categories/modpacks) if you do include it. I'd love to check it out!
+You can include this mod in modpacks that are hosted on Modrinth, CurseForge, or that respect this mod's license (LGPL-3.0). Feel free to post it [here](https://github.com/HiiJax/Bad-Horse-Fix/discussions/categories/modpacks) if you do include it. I'd love to check it out!
 
-[img-comparison]: https://doonguy.github.io/images/bhf-comparison-transparent.png
+[img-comparison]: https://hiijax.net/bhfbannertrans.png
 
 [img-modrinth]: https://img.shields.io/modrinth/dt/A4pJeHgM?style=for-the-badge&logo=modrinth&label=Modrinth%20Downloads&color=limegreen
 
 [img-curseforge]: https://img.shields.io/curseforge/dt/999835?style=for-the-badge&logo=curseforge&label=CurseForge%20Downloads&color=orange
 
-[img-github]: https://img.shields.io/github/issues/DoonGuy/Bad-Horse-Fix?style=for-the-badge&logo=github&color=darkgray
+[img-github]: https://img.shields.io/github/issues/HiiJax/Bad-Horse-Fix?style=for-the-badge&logo=github&color=darkgray
 
 
 [url-modrinth]: https://modrinth.com/mod/bad-horse-fix
 
 [url-curseforge]: https://www.curseforge.com/minecraft/mc-mods/bad-horse-fix
 
-[url-github]: https://github.com/DoonGuy/Bad-Horse-Fix/issues
+[url-github]: https://github.com/HiiJax/Bad-Horse-Fix/issues
