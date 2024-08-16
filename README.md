@@ -17,9 +17,10 @@ Simply looking at the Modrinth/CurseForge versions section should be clear, but 
 | 1.7.0+              | 1.20.1+           | 2.0.0                   |
 | 1.2.1 - 1.6.17      | 1.17 - 1.20.4     | 1.0.1                   |
 
-## Roadmap
-1. Solve root problem
-2. Implement into said mods
+If the mod is incompatible with a version that you'd like to use it with, please open a [GitHub issue](https://github.com/HiiJax/Bad-Horse-Fix/issues) and I will do my best to make it happen.
+
+## Bugs
+If you run into any glitches, bugs, or problems of any kind, please report them on the [GitHub Issues page](https://github.com/HiiJax/Bad-Horse-Fix/issues) for this mod. If issues go unreported, they also go unfixed!
 
 ## Modpacks
 You can include this mod in modpacks that are hosted on Modrinth, CurseForge, or that respect this mod's license (LGPL-3.0). Feel free to post it [here](https://github.com/HiiJax/Bad-Horse-Fix/discussions/categories/modpacks) if you do include it. I'd love to check it out!
