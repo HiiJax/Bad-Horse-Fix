@@ -1,6 +1,6 @@
-package doonguy.badhorsefix.mixin.forge;
+package hiijax.badhorsefix.mixin.fabric;
 
-import doonguy.badhorsefix.forge.RenderTypeOrderer;
+import hiijax.badhorsefix.fabric.RenderTypeOrderer;
 import net.irisshaders.batchedentityrendering.impl.ordering.GraphTranslucencyRenderOrderManager;
 import net.minecraft.client.renderer.RenderType;
 import org.spongepowered.asm.mixin.Mixin;

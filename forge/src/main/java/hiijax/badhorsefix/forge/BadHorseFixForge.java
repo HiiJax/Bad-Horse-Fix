@@ -1,4 +1,4 @@
-package doonguy.badhorsefix.forge;
+package hiijax.badhorsefix.forge;
 
 import net.minecraftforge.fml.common.Mod;
 

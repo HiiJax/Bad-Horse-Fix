@@ -5,12 +5,12 @@
   "name": "Bad Horse Fix",
   "description": "Fixes horse markings appearing above horse armor when using Iris",
   "authors": [
-    "DoonGuy"
+    "HiiJax"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/bad-horse-fix",
-    "sources": "https://github.com/DoonGuy/Bad-Horse-Fix",
-    "issues": "https://github.com/doonguy/Bad-Horse-Fix/issues"
+    "sources": "https://github.com/HiiJax/Bad-Horse-Fix",
+    "issues": "https://github.com/HiiJax/Bad-Horse-Fix/issues"
   },
   "license": "LGPL-3.0-only",
   "icon": "badhorsefix-icon.png",

@@ -1,4 +1,4 @@
-package doonguy.badhorsefix.forge;
+package hiijax.badhorsefix.fabric;
 
 import net.minecraft.client.renderer.RenderType;
 

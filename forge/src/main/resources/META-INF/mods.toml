@@ -1,13 +1,13 @@
 modLoader = "javafml"
 loaderVersion = "*"
-issueTrackerURL = "https://github.com/doonguy/Bad-Horse-Fix/issues"
+issueTrackerURL = "https://github.com/hiijax/Bad-Horse-Fix/issues"
 license = "LGPL-3.0-only"
 
 [[mods]]
 modId = "badhorsefix"
 version = "${version}"
 displayName = "Bad Horse Fix"
-authors = "DoonGuy"
+authors = "HiiJax"
 description = '''
 Fixes horse markings appearing above horse armor when using Oculus
 '''
