@@ -1,6 +1,6 @@
-package hiijax.badhorsefix.mixin.forge;
+package hiijax.badhorsefix.mixin.neoforge;
 
-import hiijax.badhorsefix.forge.RenderTypeOrderer;
+import hiijax.badhorsefix.neoforge.RenderTypeOrderer;
 import net.irisshaders.batchedentityrendering.impl.ordering.GraphTranslucencyRenderOrderManager;
 import net.minecraft.client.renderer.RenderType;
 import org.spongepowered.asm.mixin.Mixin;

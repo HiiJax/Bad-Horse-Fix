@@ -1,4 +1,4 @@
-package hiijax.badhorsefix.forge;
+package hiijax.badhorsefix.neoforge;
 
 import net.minecraft.client.renderer.RenderType;
 
