@@ -16,7 +16,7 @@ public class RenderTypeOrderer implements Comparator<RenderType> {
             return 1; // Horse without armor or markings
         } else if (texture.contains("markings")) {
             return 2; // Horse with markings
-        } else if (texture.contains("armor")) {
+        } else if (texture.contains("armor") && !texture.contains("iceandfire")) {
             return 3; // Horse with armor
         } else {
             return 4; // Others (fallback)
