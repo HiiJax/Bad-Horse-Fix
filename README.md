@@ -8,7 +8,7 @@
 **NOTE**: As of Minecraft 1.21.2 this bug appears to be fixed! The latest version of the mod (3.0.0) should now be compatible with EVERY version of Iris/Oculus that includes the bug.
 
 ## About
-This mod fixes horse markings appearing above horse armor when using the Iris shaders mod. It requires that Iris or Oculus be installed in order to work since it directly modifies Iris's rendering code.
+This mod fixes horse markings appearing above horse armor when using the Iris or Oculus shaders mods.
 
 Basically, this mod checks everything being rendered to see if it contains "horse", "armor", or "markings" and if it finds anything, it forces it to be rearranged. There doesn't seem to be any noticeable performance hit.
 
