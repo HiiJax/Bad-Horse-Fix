@@ -5,19 +5,12 @@
 [![CurseForge Downloads][img-curseforge]][url-curseforge]
 [![GitHub Issues][img-github]][url-github]
 
+**NOTE**: As of Minecraft 1.21.2 this bug appears to be fixed! The latest version of the mod (3.0.0) should now be compatible with EVERY version of Iris/Oculus that includes the bug.
+
 ## About
 This mod fixes horse markings appearing above horse armor when using the Iris shaders mod. It requires that Iris or Oculus be installed in order to work since it directly modifies Iris's rendering code.
 
 Basically, this mod checks everything being rendered to see if it contains "horse", "armor", or "markings" and if it finds anything, it forces it to be rearranged. There doesn't seem to be any noticeable performance hit.
-## Version Compatibility
-Simply looking at the Modrinth/CurseForge versions section should be clear, but here's a table too, just in case:
-
-| Iris/Oculus Version | Minecraft Version | Recommended BHF Version |
-|---------------------|-------------------|-------------------------|
-| 1.7.0+              | 1.20.1+           | 2.0.0                   |
-| 1.2.1 - 1.6.17      | 1.17 - 1.20.4     | 1.0.1                   |
-
-If the mod is incompatible with a version that you'd like to use it with, please open a [GitHub issue](https://github.com/HiiJax/Bad-Horse-Fix/issues) and I will do my best to make it happen.
 
 ## Bugs
 If you run into any glitches, bugs, or problems of any kind, please report them on the [GitHub Issues page](https://github.com/HiiJax/Bad-Horse-Fix/issues) for this mod. If issues go unreported, they also go unfixed!
@@ -25,7 +18,7 @@ If you run into any glitches, bugs, or problems of any kind, please report them 
 ## Modpacks
 You can include this mod in modpacks that are hosted on Modrinth, CurseForge, or that respect this mod's license (LGPL-3.0). Feel free to post it [here](https://github.com/HiiJax/Bad-Horse-Fix/discussions/categories/modpacks) if you do include it. I'd love to check it out!
 
-[img-comparison]: https://hiijax.net/bhfbannertrans.png
+[img-comparison]: https://images2.imgbox.com/9a/f4/36o7Xl4U_o.png
 
 [img-modrinth]: https://img.shields.io/modrinth/dt/A4pJeHgM?style=for-the-badge&logo=modrinth&label=Modrinth%20Downloads&color=limegreen
 
