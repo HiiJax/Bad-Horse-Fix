@@ -1,21 +1,23 @@
-package hiijax.badhorsefix.mixin.fabric;
+package net.hiijax.badhorsefix.mixin;
 
-import hiijax.badhorsefix.fabric.RenderTypeOrderer;
-import net.irisshaders.batchedentityrendering.impl.ordering.GraphTranslucencyRenderOrderManager;
+import net.hiijax.badhorsefix.RenderTypeOrderer;
 import net.minecraft.client.renderer.RenderType;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Pseudo;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.List;
 
-@Mixin(GraphTranslucencyRenderOrderManager.class)
-public abstract class GraphTranslucencyRenderOrderManagerMixin {
+@Mixin(targets = "net.irisshaders.batchedentityrendering.impl.ordering.GraphTranslucencyRenderOrderManager", remap = false)
+@Pseudo
+public class GraphTranslucencyRenderOrderManagerMixin {
     @Inject(method = "getRenderOrder", at = @At("RETURN"), cancellable = true, remap = false)
     private void sortLayers(CallbackInfoReturnable<List<RenderType>> cir) {
         List<RenderType> allLayers = cir.getReturnValue();
         allLayers.sort(new RenderTypeOrderer());
         cir.setReturnValue(allLayers);
+
     }
 }

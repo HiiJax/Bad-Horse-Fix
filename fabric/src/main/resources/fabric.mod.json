@@ -3,7 +3,7 @@
   "id": "badhorsefix",
   "version": "${version}",
   "name": "Bad Horse Fix",
-  "description": "Fixes horse markings appearing above horse armor when using Iris",
+  "description": "Fixes horse markings appearing above horse armor when using Iris.",
   "authors": [
     "HiiJax"
   ],
@@ -13,13 +13,17 @@
     "issues": "https://github.com/HiiJax/Bad-Horse-Fix/issues"
   },
   "license": "LGPL-3.0-only",
-  "icon": "badhorsefix-icon.png",
+  "icon": "icon.png",
   "environment": "client",
   "mixins": [
     "badhorsefix.mixins.json"
   ],
   "depends": {
-    "minecraft": ">=1.20.1",
-    "iris": ">=1.7.0"
+    "fabricloader": "*",
+    "minecraft": "*",
+    "java": ">=17"
+  },
+  "suggests": {
+    "iris": "*"
   }
 }

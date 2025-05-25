@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+issueTrackerURL = "https://github.com/hiijax/Bad-Horse-Fix/issues"
+license = "LGPL-3.0-only"
+
+[[mods]]
+modId = "badhorsefix"
+version = "${version}"
+displayName = "Bad Horse Fix"
+authors = "HiiJax"
+description = '''
+Fixes horse markings appearing above horse armor when using Oculus Shaders.
+'''
+logoFile = "icon.png"
+
+[[dependencies.badhorsefix]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.badhorsefix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,)"
+ordering = "NONE"
+side = "CLIENT"

@@ -1,4 +1,4 @@
-package hiijax.badhorsefix.neoforge;
+package net.hiijax.badhorsefix;
 
 import net.minecraft.client.renderer.RenderType;
 
@@ -13,13 +13,13 @@ public class RenderTypeOrderer implements Comparator<RenderType> {
     private int getPriority(RenderType renderType) {
         String texture = renderType.toString();
         if (texture.contains("horse") && !texture.contains("armor") && !texture.contains("markings")) {
-            return 1; // Horse without armor or markings
-        } else if (texture.contains("markings")) {
-            return 2; // Horse with markings
-        } else if (texture.contains("armor") && !texture.contains("iceandfire")) {
-            return 3; // Horse with armor
+            return 1; // First render the horse
+        } else if (texture.contains("horse") && texture.contains("markings")) {
+            return 2; // Then render the horse markings
+        } else if (texture.contains("horse") && texture.contains("armor") && !texture.contains("iceandfire")) {
+            return 3; // Then the horse armor
         } else {
-            return 4; // Others (fallback)
+            return 4; // Then anything else
         }
     }
 }

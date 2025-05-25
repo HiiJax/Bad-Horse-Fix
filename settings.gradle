@@ -11,4 +11,5 @@ rootProject.name = 'badhorsefix'
 
 include 'common'
 include 'fabric'
+include 'forge'
 include 'neoforge'

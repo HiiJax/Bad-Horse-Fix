@@ -1,5 +1,5 @@
 plugins {
-    id 'com.github.johnrengelman.shadow'
+    id 'com.gradleup.shadow'
 }
 
 architectury {
@@ -32,9 +32,6 @@ dependencies {
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
-
-    modImplementation"maven.modrinth:sodium:${project.sodium_version}"
-    modImplementation"maven.modrinth:iris:${project.iris_version}"
 }
 
 processResources {
@@ -51,5 +48,5 @@ shadowJar {
 }
 
 remapJar {
-    input.set shadowJar.archiveFile
+    inputFile.set shadowJar.archiveFile
 }
