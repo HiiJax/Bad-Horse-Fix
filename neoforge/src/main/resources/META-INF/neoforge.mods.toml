@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[2,)"
+loaderVersion = "[4,)"
 issueTrackerURL = "https://github.com/hiijax/Bad-Horse-Fix/issues"
 license = "LGPL-3.0-only"
 
@@ -16,14 +16,14 @@ logoFile = "logo.png"
 [[dependencies.badhorsefix]]
 modId = "neoforge"
 type = "required"
-versionRange = "[20.2,)"
+versionRange = "[21.0,)"
 ordering = "NONE"
 side = "CLIENT"
 
 [[dependencies.badhorsefix]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.20.2,)"
+versionRange = "[1.21,)"
 ordering = "NONE"
 side = "CLIENT"
 
