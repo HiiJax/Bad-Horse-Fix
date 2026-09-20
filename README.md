@@ -5,18 +5,20 @@
 [![CurseForge Downloads][img-curseforge]][url-curseforge]
 [![GitHub Issues][img-github]][url-github]
 
-**NOTE**: As of Minecraft 1.21.2 this bug appears to be fixed! The latest version of the mod (3.0.0) should now be compatible with EVERY version of Iris/Oculus that includes the bug.
+**NOTE**: As of Minecraft 1.21.2 this bug appears to be fixed! The latest version of the mod (4.0.0) should be compatible with EVERY version of Iris/Oculus that includes the bug.
 
 ## About
-This mod fixes horse markings appearing above horse armor when using the Iris or Oculus shaders mods.
+This mod fixes horse markings appearing above horse armor when using Iris or Oculus shaders mods.
 
-Basically, this mod checks everything being rendered to see if it contains "horse", "armor", or "markings" and if it finds anything, it forces it to be rearranged. There doesn't seem to be any noticeable performance hit.
+~~Basically, this mod checks everything being rendered to see if it contains "horse", "armor", or "markings" and if it finds anything, it forces it to be rearranged. There doesn't seem to be any noticeable performance hit.~~ 
+
+The mod now looks for *just* vanilla horse armor and sends it to the end of the Iris rendering batch, so that it's rendered last, above markings. This also means less conflicts, and better performance (though performance never seemed to be an issue)
 
 ## Bugs
 If you run into any glitches, bugs, or problems of any kind, please report them on the [GitHub Issues page](https://github.com/HiiJax/Bad-Horse-Fix/issues) for this mod. If issues go unreported, they also go unfixed!
 
 ## Modpacks
-You can include this mod in modpacks that are hosted on Modrinth, CurseForge, or that respect this mod's license (LGPL-3.0). Feel free to post it [here](https://github.com/HiiJax/Bad-Horse-Fix/discussions/categories/modpacks) if you do include it. I'd love to check it out!
+You can include this mod in modpacks that are hosted on Modrinth, CurseForge, or that respect this mod's license (LGPL-3.0).
 
 [img-comparison]: https://hiijax.net/bhfbannertrans.png
 
