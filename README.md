@@ -18,7 +18,7 @@ If you run into any glitches, bugs, or problems of any kind, please report them 
 ## Modpacks
 You can include this mod in modpacks that are hosted on Modrinth, CurseForge, or that respect this mod's license (LGPL-3.0). Feel free to post it [here](https://github.com/HiiJax/Bad-Horse-Fix/discussions/categories/modpacks) if you do include it. I'd love to check it out!
 
-[img-comparison]: https://images2.imgbox.com/9a/f4/36o7Xl4U_o.png
+[img-comparison]: https://hiijax.net/bhfbannertrans.png
 
 [img-modrinth]: https://img.shields.io/modrinth/dt/A4pJeHgM?style=for-the-badge&logo=modrinth&label=Modrinth%20Downloads&color=limegreen
 
